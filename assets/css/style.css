@@ -1,9 +1,55 @@
-div {
-  border: 2px solid red;
+:root {
+  --green: #a7e96a;
+  --blue: #70e1c6;
+  --orange: #ff914d;
+  --pink: #aa4465;
+  --purple: #cb6ce6;
+}
+
+body {
+  background-color: var(--purple);
+}
+
+/* div {
+  border: 2px solid black;
   margin: 0 auto;
   width: 75%;
-}
+} */
 
 h1 {
   text-align: center;
+}
+
+.tagline {
+  font-family: 'Contrail One', cursive;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  color: var(--orange);
+  font-size: 2rem;
+}
+
+h5 {
+  color: white;
+  text-shadow: 0px 0px 4px var(--purple);
 }
